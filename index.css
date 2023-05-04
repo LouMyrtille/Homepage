@@ -1,0 +1,102 @@
+:root {
+    --purple: #CDB4DB;
+    --blue: #A2D2FF;
+    background-color: black;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.side {
+    height: 100vh;
+    width: 100%;
+
+    display: grid;
+    place-items: center;
+
+    position: absolute;
+    overflow: hidden;
+}
+
+
+.side .title {
+    color: black;
+    font-family: "Rubik", sans-serif;
+    font-size: 4vw;
+    margin: 0px 30vw;
+    width: 70vw;
+
+}
+
+.side .fancy-1 {
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;
+    font-size: 1.3em;
+    margin: 0px 21.7vw;
+
+}
+
+.side .fancy-2 {
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;
+    font-size: 1.3em;
+    margin: 0px 24vw;
+
+}
+
+
+#left-side {
+    background-color: var(--purple);
+    z-index: 2;
+
+}
+
+#right-side {
+    background-color: var(--blue);
+
+}
+
+#left-side .title {
+    color: white;
+}
+
+#right-side .title {
+    color: black;
+}
+
+#left-side .fancy-1 {
+    color: #fcf6bd;
+}
+
+#right-side .fancy-2 {
+    color: #d0f4de;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+p {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 2vw;
+    margin: 0rem;
+    text-transform: uppercase;
+}
+
+#contactMe {
+    font-size: 2.5vw;
+    text-transform: lowercase;
+    font-family: 'Lobster Two', cursive !important;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+}
